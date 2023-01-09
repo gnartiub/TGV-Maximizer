@@ -1,0 +1,8 @@
+dotenv
+psycopg2
+os
+requests
+gzip
+json
+sys
+InquirerPy

@@ -1,0 +1,36 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>7</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLActor</id><coordinates><x>119</x><y>147</y><w>56</w><h>77</h></coordinates><panel_attributes>Utilisateur</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>140</x><y>252</y><w>14</w><h>378</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>203</x><y>182</y><w>119</w><h>21</h></coordinates><panel_attributes>_:Console d'authentification_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>259</x><y>238</y><w>14</w><h>189</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>189</y><w>28</w><h>77</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>12;12;10;90</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>497</x><y>182</y><w>105</w><h>21</h></coordinates><panel_attributes>_:Base de données_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>371</x><y>238</y><w>14</w><h>140</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>350</x><y>182</y><w>70</w><h>21</h></coordinates><panel_attributes>_:DAO_
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>546</x><y>287</y><w>14</w><h>189</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>147</x><y>259</y><w>126</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Créer_un_compte()</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>329</y><w>119</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+connexion(id,MDP)</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>70</x><y>119</y><w>609</w><h>609</h></coordinates><panel_attributes>Connexion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>140</x><y>539</y><w>469</w><h>35</h></coordinates><panel_attributes>se connecter = true
+group=group-1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>140</x><y>595</y><w>469</w><h>105</h></coordinates><panel_attributes>se connecter = false
+--
+
+group=group-1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>91</x><y>490</y><w>553</w><h>224</h></coordinates><panel_attributes>alt
+--
+
+-.
+
+
+
+
+
+-.
+group=group-1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>336</y><w>182</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+get_id()</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>357</y><w>182</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+get_mdp()</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>371</x><y>385</y><w>14</w><h>91</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>406</y><w>154</w><h>70</h></coordinates><panel_attributes>lt=-&gt;&gt;
+se_connecter(id,mdp)</panel_attributes><additional_attributes>10;10;90;10;90;80;10;80</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>371</x><y>504</y><w>14</w><h>168</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>259</x><y>518</y><w>14</w><h>126</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>539</y><w>119</w><h>28</h></coordinates><panel_attributes>lt=&lt;-
+True</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>616</y><w>119</w><h>28</h></coordinates><panel_attributes>lt=&lt;-
+message_erreur</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>259</x><y>196</y><w>21</w><h>56</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>147</x><y>322</y><w>126</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+connexion(id,MDP)</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>147</x><y>301</y><w>126</w><h>28</h></coordinates><panel_attributes>lt=&lt;-
+True</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>371</x><y>196</y><w>21</w><h>56</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>546</x><y>196</y><w>21</w><h>105</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>287</y><w>119</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Create_profil()</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>378</x><y>294</y><w>182</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;
+Envoi de requête</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element></diagram>

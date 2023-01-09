@@ -1,0 +1,59 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>7</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLObject</id><coordinates><x>14</x><y>21</y><w>959</w><h>623</h></coordinates><panel_attributes>TGVMaximizer
+valign=top</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>413</x><y>35</y><w>14</w><h>14</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>385</x><y>70</y><w>70</w><h>28</h></coordinates><panel_attributes>se connecter
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>406</x><y>119</y><w>28</w><h>28</h></coordinates><panel_attributes>bg=green
+type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>91</y><w>21</w><h>42</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>35</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;11;14</additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>140</y><w>70</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+[authentifié]</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>427</x><y>119</y><w>119</w><h>28</h></coordinates><panel_attributes>lt=&lt;-
+[utilisateur inconnu]</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>532</x><y>119</y><w>70</w><h>28</h></coordinates><panel_attributes>créer un compte
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>371</x><y>203</y><w>98</w><h>28</h></coordinates><panel_attributes>sélectionner une 
+action
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>406</x><y>252</y><w>28</w><h>28</h></coordinates><panel_attributes>bg=green
+type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>371</x><y>315</y><w>105</w><h>28</h></coordinates><panel_attributes>trouver trains TGVmax
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>273</y><w>56</w><h>56</h></coordinates><panel_attributes>lt=&lt;-
+[TGVmax]</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>497</x><y>315</y><w>91</w><h>28</h></coordinates><panel_attributes>demander date 
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>490</x><y>371</y><w>105</w><h>28</h></coordinates><panel_attributes>demander gare origine
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>490</x><y>427</y><w>105</w><h>28</h></coordinates><panel_attributes>demander éligibilité
+TGVmax
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>427</x><y>252</y><w>140</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+[destination possible]</panel_attributes><additional_attributes>160;90;160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>532</x><y>336</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>532</x><y>392</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>623</x><y>315</y><w>70</w><h>28</h></coordinates><panel_attributes>demander date
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>532</x><y>252</y><w>140</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+[Trajet]</panel_attributes><additional_attributes>180;90;180;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>616</x><y>371</y><w>84</w><h>28</h></coordinates><panel_attributes>demander départ
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>616</x><y>427</y><w>84</w><h>28</h></coordinates><panel_attributes>demander arrivée
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>651</x><y>336</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>651</x><y>392</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>651</x><y>252</y><w>140</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+[Week-end]</panel_attributes><additional_attributes>180;90;180;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>742</x><y>315</y><w>70</w><h>28</h></coordinates><panel_attributes>demander date
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>735</x><y>371</y><w>84</w><h>28</h></coordinates><panel_attributes>demander départ
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>336</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>392</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>735</x><y>427</y><w>84</w><h>28</h></coordinates><panel_attributes>demander arrivée
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>735</x><y>483</y><w>84</w><h>28</h></coordinates><panel_attributes>demander heures
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>448</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>224</y><w>21</w><h>42</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>448</x><y>70</y><w>133</w><h>63</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;20;170;20;170;70</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>252</y><w>119</w><h>28</h></coordinates><panel_attributes>lt=&lt;-
+[deconnexion]</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>875</x><y>245</y><w>70</w><h>35</h></coordinates><panel_attributes>se déconnecter
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>448</x><y>70</y><w>476</w><h>189</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;20;660;20;660;250</additional_attributes></element><element><id>UMLSyncBarHorizontal</id><coordinates><x>336</x><y>532</y><w>609</w><h>14</h></coordinates><panel_attributes>{joinSpec=
+date is on or 
+after July 1st
+and the exam 
+is passed}</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>504</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>651</x><y>448</y><w>21</w><h>105</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>532</x><y>448</y><w>21</w><h>105</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>336</y><w>21</w><h>217</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;290;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>574</x><y>595</y><w>70</w><h>28</h></coordinates><panel_attributes>Afficher Résultat
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>602</x><y>532</y><w>21</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>49</x><y>210</y><w>539</w><h>413</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>460;10;10;10;10;570;750;570</additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>252</y><w>147</w><h>77</h></coordinates><panel_attributes>lt=&lt;-
+[gérer MDP]</panel_attributes><additional_attributes>10;90;10;20;190;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>224</x><y>315</y><w>105</w><h>28</h></coordinates><panel_attributes>demander MDP
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>224</x><y>371</y><w>105</w><h>28</h></coordinates><panel_attributes>demander  nouveau
+MDP
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>273</x><y>336</y><w>21</w><h>49</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>252</y><w>154</w><h>133</h></coordinates><panel_attributes>lt=&lt;-
+[gérer mail]</panel_attributes><additional_attributes>20;170;20;20;200;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>98</x><y>371</y><w>105</w><h>28</h></coordinates><panel_attributes>demander  nouveau
+mail
+bg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>49</x><y>392</y><w>245</w><h>105</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;130;330;130;330;10</additional_attributes></element><element><id>Relation</id><coordinates><x>49</x><y>392</y><w>119</w><h>105</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;130;150;130;150;10</additional_attributes></element></diagram>

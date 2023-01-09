@@ -1,0 +1,52 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>45</x><y>117</y><w>225</w><h>162</h></coordinates><panel_attributes>Utilisateur
+--
+#id : int
+-mail : str
+-nom: str
+-prenom: str
+-MDP : str
+-date_naissance : date
+--
+&lt;&lt;create&gt;&gt;__init__()
++getter()
++setter()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>225</y><w>225</w><h>72</h></coordinates><panel_attributes>/AbstractRecherche/
+--
+
+--
+/recherche()/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>387</x><y>90</y><w>234</w><h>81</h></coordinates><panel_attributes>Rechercheweekend
+--
+
+--
+recherche(date, origine, destination,
+ alerter, eligible): List(URL)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>90</y><w>261</w><h>81</h></coordinates><panel_attributes>RechercheDestination
+--
+
+--
+recherche(date, origine, 
+alerter, eligible): List(URL)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>207</y><w>261</w><h>81</h></coordinates><panel_attributes>RechercheTrajet
+--
+
+--
+recherche(date, origine, destination,
+eligible, alerter=False, eligible="Oui"): List(URL)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>162</y><w>27</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>162</y><w>198</w><h>81</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;30;200;30;200;10</additional_attributes></element><element><id>Relation</id><coordinates><x>603</x><y>252</y><w>72</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>351</y><w>243</w><h>144</h></coordinates><panel_attributes>DAOProfil
+--
+
+--
+créer_compte(Utilisateur) : Bool
+connexion(mail,MDP): Utilisateur
+changer_mail(Utilisateur, 
+			nouveau_mail) : Bool
+changer_MDP(Utilisateur, 
+			nouveau_MDP) : Bool
+verifier_mail(mail): Bool</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>153</x><y>270</y><w>72</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;.
+utilise v</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>360</y><w>234</w><h>126</h></coordinates><panel_attributes>DAOTrajet
+--
+
+--
+daotrajet(url, typerech,date, origine,
+destination, alerter, eligible) : None</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>549</x><y>288</y><w>72</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.
+utilise  v</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>36</y><w>927</w><h>504</h></coordinates><panel_attributes>Diagramme de classe</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>261</x><y>234</y><w>144</w><h>45</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+fait &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element></diagram>

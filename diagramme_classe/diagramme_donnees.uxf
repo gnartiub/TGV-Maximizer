@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>70</x><y>50</y><w>540</w><h>500</h></coordinates><panel_attributes>Database</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>120</y><w>190</w><h>150</h></coordinates><panel_attributes>Utilisateur
+--
+*_id_user:  INT NOT NULL_*
+mail TEXT
+MDP TEXT
+dateNaissance TEXT
+nom TEXT
+prenom TEXT</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>120</y><w>190</w><h>150</h></coordinates><panel_attributes>Historique (recherche)
+--
+*_id_historique:  INT NOT NULL_*
+#id_user:  INT NOT NULL
+type TEXT
+date TEXT
+origine TEXT
+destination TEXT
+eligible TEXT
+alerter  TEXT</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>250</x><y>330</y><w>190</w><h>200</h></coordinates><panel_attributes>Trajets
+--
+*_id_trajet:  INT NOT NULL_*
+date TEXT
+origine TEXT
+od_happy_card TEXT
+train_no INT
+heure_arrivee TEXT
+axe TEXT
+destination_iata TEXT
+heure_depart TEXT
+origine_iata TEXT</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>190</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+</panel_attributes><additional_attributes>10;20;100;20</additional_attributes></element></diagram>
